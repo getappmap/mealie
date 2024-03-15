@@ -174,7 +174,7 @@ tasks:
     desc: runs the frontend server
     dir: frontend
     cmds:
-      - npx appmap-node@latest yarn run dev
+      - yarn run dev
 
   docker:prod:
     desc: builds and runs the production docker image locally
