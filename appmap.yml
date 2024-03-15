@@ -1,0 +1,7 @@
+appmap_dir: tmp/appmap
+language: python
+name: mealie
+packages:
+- path: tests
+- path: mealie
+- path: utils

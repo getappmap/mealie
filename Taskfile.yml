@@ -79,7 +79,7 @@ tasks:
     desc: starts postgres and mailpit containers
     dir: docker
     cmds:
-      - docker compose -f docker-compose.dev.yml up
+      - docker compose -f docker-compose.dev.yml up -d
 
   dev:clean:
     desc: cleans up dev environment !! removes all data files !!
@@ -174,7 +174,7 @@ tasks:
     desc: runs the frontend server
     dir: frontend
     cmds:
-      - yarn run dev
+      - npx appmap-node@latest yarn run dev
 
   docker:prod:
     desc: builds and runs the production docker image locally

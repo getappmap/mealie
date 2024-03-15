@@ -52,6 +52,7 @@ pydantic-settings = "^2.1.0"
 psycopg2-binary = { version = "^2.9.1" }
 
 [tool.poetry.group.dev.dependencies]
+appmap = { git = "https://github.com/getappmap/appmap-python.git", branch = "master" }
 black = "^24.0.0"
 coverage = "^7.0"
 coveragepy-lcov = "^0.1.1"

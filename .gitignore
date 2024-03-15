@@ -163,3 +163,5 @@ dev/code-generation/openapi.json
 
 .run/
 .task/*
+
+**tmp/appmap
